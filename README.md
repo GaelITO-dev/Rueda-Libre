@@ -4,6 +4,13 @@ RuedaLibre es una aplicación de escritorio en Java para la gestión de un siste
 Permite administrar usuarios, estaciones, sucursales y tarifas, además de integrar funcionalidades como envío de PDF de bienvenida, notificaciones por correo
 electrónico y SMS.
 
+# 👨‍💻 Autores
+Desarrollado por:
+
+Gael Martinez Cruz gaelmartinezcruz3812@gmail.com
+
+Jonathan Eleazar Díaz Reyes 
+
 # ✨ Características
 ✅ Registro e inicio de sesión de usuarios
 
@@ -31,19 +38,6 @@ MySQL (para la base de datos)
 Conexión a Internet (para envío de correos y SMS)
 
 Configuración de las credenciales de JavaMail y Twilio en el código
-
-# 🛠 Tecnologías y librerías
-Java SE (Swing)
-
-MySQL Connector/J
-
-iText 5.5.13.2 (PDF)
-
-JavaMail API
-
-Twilio SDK (SMS) https://www.twilio.com/docs/libraries/reference/twilio-java/
-
-Commons-Codec, Jackson, Gson
 
 # Uso de libreria de otro equipo
 
@@ -73,7 +67,7 @@ No se puede ingresar si el usario no existe en la base da datos, si la contrase�
 
 La base da datos cuenta con una tabla de roles los roles son: Administrador, Empleado y Cliente
 
-Login con Administrador: Cuando se ingrese como administrador se muestra esta ventana
+## Login con Administrador: Cuando se ingrese como administrador se muestra esta ventana
 
 <img width="875" height="609" alt="image" src="https://github.com/user-attachments/assets/1046eaef-6ca9-4990-95f2-1691e5bd594d" />
 
@@ -93,6 +87,134 @@ sms recibido
 Pdf recibido en el correo
 
 ![Imagen de WhatsApp 2025-07-27 a las 23 30 38_d7b00637](https://github.com/user-attachments/assets/c14c79a9-f843-4866-82b4-bc63246edde3)
+
+El rol de Administrador tambien permite hacer CRUD a las estaciones o sucursales de la empresa
+
+<img width="1070" height="720" alt="image" src="https://github.com/user-attachments/assets/f438c91c-db10-404c-91ce-8541017242c8" />
+
+Permite hacer CRUD a la tabla de bicicletas y tambien asignar alguna bicicleta a cierta sucursal
+
+<img width="922" height="690" alt="image" src="https://github.com/user-attachments/assets/5dc67cd1-017d-41f3-8f04-c19e865b77d7" />
+
+Cambiar la tarifa de la renta de las bicicletas
+
+<img width="482" height="239" alt="image" src="https://github.com/user-attachments/assets/026bc995-1965-4241-bc22-ab3990c36824" />
+
+Y ver el historial de ingresos de la empresa, Se muestra el monto, fecha, usuario, el modelo de la bicicleta y la descripcion de el movimiento
+
+<img width="985" height="551" alt="image" src="https://github.com/user-attachments/assets/dff280c9-bfed-482e-8418-222a1db567f3" />
+
+## Ahora ingresaremos con un usuario que tiene el rol de Empleado. Aqui se muestran las acciones que puede realizar el empleado que es como un tipo cajero
+
+<img width="803" height="600" alt="image" src="https://github.com/user-attachments/assets/03544ac6-856d-4ffe-9009-aa68e9a82975" />
+
+El boton buscar reservacion como el nombre lo dice muestra las reservaciones activas
+
+<img width="885" height="513" alt="image" src="https://github.com/user-attachments/assets/d58a21ca-3e95-4c69-a85d-16a4e160f5a1" />
+
+El boton registrar prestamo nos permite registrar un nuevo prestamo o registar con un folio que el cliente genera al hacer una reservacion
+
+<img width="1297" height="742" alt="image" src="https://github.com/user-attachments/assets/bb8758d2-d1fe-470e-8ffc-3572cbe35ef1" />
+
+Los clientes cuentan con una tarjeta a la que pueden recargar salgo desde una sucursal que es donde se encuentra el empleado y el boton Agregar saldo
+sirve para eso, muestra una tabla con los usuario y un cuadro de texto para recargar el saldo que el clienta quiera recargar
+
+<img width="779" height="514" alt="image" src="https://github.com/user-attachments/assets/c3c7507f-40a7-4a82-8da5-ade35a22ec77" />
+
+Boton Realizar Devolucion, pide el folio de la reserva que hizo el cliente y se puede elegir si pagar con la tarjeta o con efectivo
+cuando el cliente paga se manda un correo con el ticket
+
+<img width="656" height="524" alt="image" src="https://github.com/user-attachments/assets/c2c913a8-b5a5-4105-a8b6-1cea46ade722" />
+
+## Login con rol de Cliente 
+
+Esta es la ventana que se muestra cuando se ingresa como cliente en el login
+
+<img width="631" height="628" alt="image" src="https://github.com/user-attachments/assets/d7594942-d94c-4beb-b1c4-a61b125785d2" />
+
+Con el boton mostrar sucursales se puede ver la tabla de sucursales y tambien que bicicletas estan disponibles en cada una de ellas
+
+<img width="856" height="484" alt="image" src="https://github.com/user-attachments/assets/bb561522-c242-43e3-ae2d-1108a0155dc0" />
+
+<img width="854" height="457" alt="image" src="https://github.com/user-attachments/assets/f17b0022-1de2-4a12-adff-6b87cc432525" />
+
+Boton Hacer Reservacion, se muestra una ventana en la que podemos buscar la sucursal, la bicicleta y escoger la fecha de la reservacion
+
+<img width="1109" height="613" alt="image" src="https://github.com/user-attachments/assets/534592fc-7281-47ab-ad24-6ea948eee115" />
+
+Al reservar se genera el folio
+
+<img width="1051" height="189" alt="image" src="https://github.com/user-attachments/assets/d4031cf5-f344-4e3d-b312-910632a0f942" />
+
+Boton Prestamos Activos muestra el folio de la reserva, la fecha y datos de la bicicleta
+
+<img width="979" height="510" alt="image" src="https://github.com/user-attachments/assets/eca2106c-7e23-4698-aa5d-4f83a0dbbd33" />
+
+Boton rueda libre, muestra el saldo actual de la tarjeta de saldo del cliente
+
+<img width="485" height="286" alt="image" src="https://github.com/user-attachments/assets/6e743fa8-d104-403b-97e7-3f1a877f0dc6" />
+
+Boton Ver Historial muestra los movimientos realizados por el cliente
+
+<img width="1108" height="554" alt="image" src="https://github.com/user-attachments/assets/70dc6865-66a6-410d-ba18-5818a375487c" />
+
+Boton Politicas de Uso
+
+<img width="725" height="1021" alt="image" src="https://github.com/user-attachments/assets/296a8944-5d7d-4b5a-86fb-744bf2f1a458" />
+
+# Uso de servicio Twilio para envio de SMS
+
+Primero se tiene que crear una cuenta en la pagina https://www.twilio.com/es-mx
+
+Una vez creada la cuenta se obtiene el Auth Token, el Account SID y el numero Twilio
+
+Estos datos se usan en esta clase
+
+<img width="945" height="500" alt="image" src="https://github.com/user-attachments/assets/14c0643c-ffe7-405b-aeb4-9492ededfdac" />
+
+Como es una cuenta gratuita el servicio para evitar spam o mal uso del servicio pide que los numero a los que se les va a enviar el sms sean registrados en la pagina como un nuevo Caller ID
+
+# 🛠 Tecnologías y librerías
+Java SE (Swing)
+
+MySQL Connector/J
+
+iText 5.5.13.2 (PDF)
+
+JavaMail API
+
+Twilio SDK (SMS) https://www.twilio.com/docs/libraries/reference/twilio-java/
+
+Commons-Codec, Jackson, Gson
+
+# 🔧 Requisitos previos
+Java JDK 8+
+
+NetBeans 8+ (o cualquier IDE compatible con proyectos Ant)
+
+MySQL (para la base de datos)
+
+Conexión a Internet (para envío de correos y SMS)
+
+Configuración de las credenciales de JavaMail y Twilio en el código
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
