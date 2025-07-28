@@ -85,7 +85,9 @@ Cuando se crea un usuario se puede seleccionar que tipo de rol tendra y como se 
 un correo con un pdf que de la bienvenida al sistema de igual manera se manda un sms indicando que la cuenta a sido creada exitosamente
 
 <img width="591" height="573" alt="image" src="https://github.com/user-attachments/assets/e18aa66b-8f6e-42d6-9fb8-96ae6d396d14" />
+
 sms recibido
+
 ![Imagen de WhatsApp 2025-07-27 a las 23 30 38_64915080](https://github.com/user-attachments/assets/d9c0b33a-e5ad-4823-9c55-51a2ecc5f3ef)
 
 Pdf recibido en el correo
