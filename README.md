@@ -57,41 +57,11 @@ Libreria para enviar pdf via correo electronico enlace de la libreria: https://g
 La aplicacion esta conectada a una base de datos para la validacion de los datos del usuario
 Con esta clase se hace la coneccion a la base de datos
 
-import java.sql.*;
+<img width="952" height="494" alt="image" src="https://github.com/user-attachments/assets/758f6ba7-0409-4483-a09f-546ded8b9f2e" />
 
-public class Conection {
+Y con esta clase se logra hacer la validacion de los datos de el usuario con la base de datos 
 
-   static String url ="jdbc:mysql://localhost:3306/ruedalibre"; //Nombre de la base de datos
-   
-   static String user = "root";  //Usuario de la base de datos
-    
-   static String pass = "xxx";  //Contraseña de la base de datos
-    
-    
-  public static Connection conectar (){
-  
-   Connection con = null;
-        
-   try
-         
-   {
-       con=DriverManager.getConnection(url,user,pass);
-       
-   //  System.out.println("Conexión exitosa");
-         
-   }catch(SQLException e)
-       
-   {
-       
-   e.printStackTrace();
-        
-   } 
-       
-  return con;
-  
-} 
-
-}
+<img width="854" height="525" alt="image" src="https://github.com/user-attachments/assets/a6689a33-b94c-486c-adcb-f70a6c6a0a16" />
 
 El login principal hace uso de la libreria de validacion de contraseñas y correos
 para una simulacion más precisa de un login mas formal, en el login principal tambien se muestra el uso de el captcha usado. 
