@@ -64,11 +64,34 @@ Y con esta clase se logra hacer la validacion de los datos de el usuario con la 
 <img width="854" height="525" alt="image" src="https://github.com/user-attachments/assets/a6689a33-b94c-486c-adcb-f70a6c6a0a16" />
 
 El login principal hace uso de la libreria de validacion de contraseñas y correos
-para una simulacion más precisa de un login mas formal, en el login principal tambien se muestra el uso de el captcha usado. 
+
+para una simulacion más precisa de un login mas formal, en el login principal tambien se muestra el uso de el captcha usado.
+
+No se puede ingresar si el usario no existe en la base da datos, si la contraseña o el correo no es valido y si no se a validado el captcha
 
 <img width="999" height="902" alt="image" src="https://github.com/user-attachments/assets/092ac334-7f2b-4875-8f12-c06165eaac18" />
 
-Si se intenta ingresar con 
+La base da datos cuenta con una tabla de roles los roles son: Administrador, Empleado y Cliente
+
+Login con Administrador: Cuando se ingrese como administrador se muestra esta ventana
+
+<img width="875" height="609" alt="image" src="https://github.com/user-attachments/assets/1046eaef-6ca9-4990-95f2-1691e5bd594d" />
+
+El boton de Usuario permite hacer CRUD en la base de datos: Permite ver la tabla de los usuarios , eliminar usuarios ,editar y crear usuario
+
+<img width="1022" height="688" alt="image" src="https://github.com/user-attachments/assets/46401ee7-3499-496b-bb72-f9df42035ffb" />
+
+Cuando se crea un usuario se puede seleccionar que tipo de rol tendra y como se pide el numero de telefono y el correo estos datos se usan para enviar 
+un correo con un pdf que de la bienvenida al sistema de igual manera se manda un sms indicando que la cuenta a sido creada exitosamente
+
+<img width="591" height="573" alt="image" src="https://github.com/user-attachments/assets/e18aa66b-8f6e-42d6-9fb8-96ae6d396d14" />
+
+
+
+
+
+
+
 
 
 
