@@ -7,9 +7,9 @@ electrónico y SMS.
 # 👨‍💻 Autores
 Desarrollado por:
 
-Gael Martinez Cruz gaelmartinezcruz3812@gmail.com
+Gael Martinez Cruz (Diseñador y Desarrollador) gaelmartinezcruz3812@gmail.com
 
-Jonathan Eleazar Díaz Reyes 
+Jonathan Eleazar Díaz Reyes (Diseñador y Desarrollador) diazjonhy074@gmail.com
 
 # ✨ Características
 ✅ Registro e inicio de sesión de usuarios
