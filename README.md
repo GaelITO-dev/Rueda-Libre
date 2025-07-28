@@ -41,11 +41,11 @@ Configuración de las credenciales de JavaMail y Twilio en el código
 
 # Uso de libreria de otro equipo
 
-La libreria usada es la de validacion contraseñas y correos la libreria se encuentra en el siguiente enlace: https://github.com/YHUDIEL/Login-con-validaciones
+La libreria usada es la de validacion contraseñas y correos del equipo 16 la libreria se encuentra en el siguiente enlace: https://github.com/YHUDIEL/Login-con-validaciones
 
-El componente visual utilizado es el del Captcha se encuentra en el siguiente enlace: https://github.com/FanyBr07/ComponenteVisual
+El componente visual utilizado es el del Captcha del equipo 2 se encuentra en el siguiente enlace: https://github.com/FanyBr07/ComponenteVisual
 
-Libreria para enviar pdf via correo electronico enlace de la libreria: https://github.com/olmomomo/Libreria_correoElectronico
+Libreria para enviar pdf via correo electronico del equipo 2 enlace de la libreria: https://github.com/olmomomo/Libreria_correoElectronico
 
 # Uso de la aplicacion
 La aplicacion esta conectada a una base de datos para la validacion de los datos del usuario
