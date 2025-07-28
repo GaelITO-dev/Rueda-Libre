@@ -44,3 +44,45 @@ JavaMail API
 Twilio SDK (SMS)
 
 Commons-Codec, Jackson, Gson
+
+# Uso de libreria de otro equipo
+
+La libreria usada es la de validacion contraseñas y correos la libreria se encuentra en el siguiente enlace: https://github.com/YHUDIEL/Login-con-validaciones
+
+El componente visual utilizado es el del Captcha se encuentra en el siguiente enlace: https://github.com/FanyBr07/ComponenteVisual
+
+Libreria para enviar pdf via correo electronico enlace de la libreria: https://github.com/olmomomo/Libreria_correoElectronico
+
+# Uso de la aplicacion
+La aplicacion esta conectada a una base de datos para la validacion de los datos del usuario
+Con esta clase se hace la coneccion a la base de datos
+
+import java.sql.*;
+public class Conection {
+   static String url ="jdbc:mysql://localhost:3306/ruedalibre"; //Nombre de la base de datos
+    static String user = "root";  //Usuario de la base de datos
+    static String pass = "xxx";  //Contraseña de la base de datos
+    
+  public static Connection conectar (){
+        Connection con = null;
+         try
+       {
+       con=DriverManager.getConnection(url,user,pass);
+         //  System.out.println("Conexión exitosa");
+       }catch(SQLException e)
+       {
+        e.printStackTrace();
+       }     
+  return con;               
+}    
+}
+
+El login principal hace uso de la libreria de validacion de contraseñas y correos
+para una simulacion más precisa de un login mas formal, en el login principal tambien se muestra el uso de el captcha usado. 
+
+<img width="999" height="902" alt="image" src="https://github.com/user-attachments/assets/092ac334-7f2b-4875-8f12-c06165eaac18" />
+
+Si se intenta ingresar con 
+
+
+
