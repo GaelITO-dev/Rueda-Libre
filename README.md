@@ -20,3 +20,27 @@ electrónico y SMS.
 ✅ Integración con base de datos MySQL
 
 ✅ Interfaz gráfica amigable con Java Swing
+
+# 🔧 Requisitos previos
+Java JDK 8+
+
+NetBeans 8+ (o cualquier IDE compatible con proyectos Ant)
+
+MySQL (para la base de datos)
+
+Conexión a Internet (para envío de correos y SMS)
+
+Configuración de las credenciales de JavaMail y Twilio en el código
+
+# 🛠 Tecnologías y librerías
+Java SE (Swing)
+
+MySQL Connector/J
+
+iText 5.5.13.2 (PDF)
+
+JavaMail API
+
+Twilio SDK (SMS)
+
+Commons-Codec, Jackson, Gson
