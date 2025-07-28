@@ -58,23 +58,39 @@ La aplicacion esta conectada a una base de datos para la validacion de los datos
 Con esta clase se hace la coneccion a la base de datos
 
 import java.sql.*;
+
 public class Conection {
+
    static String url ="jdbc:mysql://localhost:3306/ruedalibre"; //Nombre de la base de datos
-    static String user = "root";  //Usuario de la base de datos
-    static String pass = "xxx";  //Contraseña de la base de datos
+   
+   static String user = "root";  //Usuario de la base de datos
+    
+   static String pass = "xxx";  //Contraseña de la base de datos
+    
     
   public static Connection conectar (){
-        Connection con = null;
-         try
-       {
+  
+   Connection con = null;
+        
+   try
+         
+   {
        con=DriverManager.getConnection(url,user,pass);
-         //  System.out.println("Conexión exitosa");
-       }catch(SQLException e)
-       {
-        e.printStackTrace();
-       }     
-  return con;               
-}    
+       
+   //  System.out.println("Conexión exitosa");
+         
+   }catch(SQLException e)
+       
+   {
+       
+   e.printStackTrace();
+        
+   } 
+       
+  return con;
+  
+} 
+
 }
 
 El login principal hace uso de la libreria de validacion de contraseñas y correos
