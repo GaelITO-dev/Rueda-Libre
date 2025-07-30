@@ -28,17 +28,6 @@ Jonathan Eleazar Díaz Reyes (Diseñador y Desarrollador) diazjonhy074@gmail.com
 
 ✅ Interfaz gráfica amigable con Java Swing
 
-# 🔧 Requisitos previos
-Java JDK 8+
-
-NetBeans 8+ (o cualquier IDE compatible con proyectos Ant)
-
-MySQL (para la base de datos)
-
-Conexión a Internet (para envío de correos y SMS)
-
-Configuración de las credenciales de JavaMail y Twilio en el código
-
 # Uso de libreria de otro equipo
 
 La libreria usada es la de validacion contraseñas y correos del equipo 16 la libreria se encuentra en el siguiente enlace: https://github.com/YHUDIEL/Login-con-validaciones
@@ -128,7 +117,7 @@ cuando el cliente paga se manda un correo con el ticket
 
 ## Login con rol de Cliente 
 
-Esta es la ventana que se muestra cuando se ingresa como cliente en el login
+Esta es la ventana que se muestra cuando se ingresa como cliente en el login se tiene la idea de que el cliente ingrese en un cajero o en punto establecido para poder realizar su reserva 
 
 <img width="631" height="628" alt="image" src="https://github.com/user-attachments/assets/d7594942-d94c-4beb-b1c4-a61b125785d2" />
 
